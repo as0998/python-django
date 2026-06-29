@@ -137,5 +137,6 @@ USE_TZ = True
 STATIC_URL = 'static/'
 # 프로젝트 루트의 static 폴더 추가 설정
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',  # 또는 os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static'), # 원하는 폴더명으로 변경
+   #  BASE_DIR / 'static',  # 또는 os.path.join(BASE_DIR, 'static')
 ]
