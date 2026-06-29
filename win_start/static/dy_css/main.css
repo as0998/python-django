@@ -1,0 +1,111 @@
+ .font_s_18{font-size: 18px;}
+.font_01 {font-family: Verdana, Geneva, Arial, sans-serif;}
+.font_02 {font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;}
+.font_g_01 {font-family:  'Do Hyeon', sans-serif;}
+.font_g_02 {font-family: 'Nanum Myeongjo', serif;font-weight: bold;text-align : center;}
+.font_g_03 {font-family: 'IBM Plex Sans KR', sans-serif;font-weight: bold;text-align : center; }
+.font_g_04 {font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  color: white;
+  text-align : center;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+} 
+
+.serv_fort{
+  font-weight: bold;
+}
+header {  
+  position: fixed;
+  top: 0px;
+  /* width: 100% */
+  left: 0px;
+  right: 0px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    z-index:100;
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 100%;
+    overflow-y: auto;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+  .container {
+    display: flex; /* 가로 정렬 */
+    gap: 20px; /* 두 목록 사이의 간격 */
+  }
+
+
+
+.hero_box {
+  /* Step 1: Set the image path */
+  background-image: url("img/start_bg.jpg");
+   margin-right:  30px;
+  /* Step 2: Prevent the image from repeating/tiling */
+  background-repeat: no-repeat;
+
+  /* Step 3: Center the image within the div */
+  background-position: top;
+
+  /* Step 4: Scale the image to perfectly fill the div without stretching */
+  background-size: cover;
+
+  /* Step 5: Ensure the empty div has structural dimensions to display the image */
+  width: 100%;
+  height: 800px; 
+}
+
+.viz_box {
+  /* Step 1: Set the image path */
+  background-image: url("img/p1.jpg");
+
+  /* Step 2: Prevent the image from repeating/tiling */
+  background-repeat: no-repeat;
+
+  /* Step 3: Center the image within the div */
+  background-position: top;
+
+  /* Step 4: Scale the image to perfectly fill the div without stretching */
+  background-size: cover;
+
+  /* Step 5: Ensure the empty div has structural dimensions to display the image */
+  width: 100%;
+  height: 250px; 
+}
+
+
+main.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+main.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
